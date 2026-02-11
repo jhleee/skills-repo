@@ -4,15 +4,15 @@ A collection of practical skills for Claude Code.
 
 ## Skills
 
-### feedback (critical-acceptance)
+### feedback (비판적수용)
 
-Critically evaluate code review feedback with objective principles rather than subjective opinions.
+피드백을 무조건 수용하거나 거부하지 않고, 객관적 원칙에 기반하여 비판적으로 수용한다.
 
-- **Accept**: feedback that aligns with Clean Code, SOLID, and architecture principles
-- **Reject**: feedback based on subjective preference with clear rationale
-- **Negotiate**: propose alternatives when feedback is partially valid
+- **Accept**: 객관적 원칙(Clean Code, SOLID, Architecture)에 부합하고 실질적 개선이 있는 피드백
+- **Reject**: 원칙에 위배되거나 주관적 선호에 기반한 피드백 — 근거와 함께 거부
+- **Negotiate**: 부분적으로 타당하거나 대안이 존재할 때 — 대안 제시 후 논의
 
-Uses a structured 6-step evaluation process with reference materials for objective principles, evaluation criteria, and worked examples.
+6단계 평가 프로세스: 피드백 이해 → 코드 분석 → 원칙 평가 → 피드백 검증 → 사용자 의도 확인 → 판단 및 응답
 
 ### backend-handoff
 
@@ -33,7 +33,7 @@ claude plugin add -- jhleee/skills-repo
 ## Usage
 
 ```
-/feedback          # Evaluate code review feedback
+/feedback          # 피드백 비판적 수용 (Accept/Reject/Negotiate)
 /backend-handoff   # Generate frontend integration doc from backend code
 ```
 
