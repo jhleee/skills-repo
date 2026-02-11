@@ -4,7 +4,7 @@ A collection of practical skills for Claude Code.
 
 ## Skills
 
-### feedback
+### feedback (critical-acceptance)
 
 Critically evaluate code review feedback with objective principles rather than subjective opinions.
 
@@ -14,29 +14,30 @@ Critically evaluate code review feedback with objective principles rather than s
 
 Uses a structured 6-step evaluation process with reference materials for objective principles, evaluation criteria, and worked examples.
 
-## Installation
+### backend-handoff
 
-Install from GitHub:
+Generate structured integration documents from backend code for frontend AI agents.
+
+- Analyzes backend code (routes, models, middleware, config) across any framework
+- Outputs a Markdown spec with API endpoints, TypeScript data models, auth flow, error handling, and pagination
+- Targets AI agents as readers — goal-oriented, unambiguous, immediately actionable
+
+4-phase workflow: Code Discovery → User Feedback → Document Generation → Validation
+
+## Installation
 
 ```bash
 claude plugin add -- jhleee/skills-repo
 ```
 
-Or install from a local directory:
-
-```bash
-claude plugin add /path/to/skills-repo
-```
-
 ## Usage
 
-Invoke the feedback skill when receiving code review comments:
-
 ```
-/feedback
+/feedback          # Evaluate code review feedback
+/backend-handoff   # Generate frontend integration doc from backend code
 ```
 
-Or it will trigger automatically when Claude detects code review feedback evaluation context.
+Skills also trigger automatically when Claude detects matching context.
 
 ## Author
 
