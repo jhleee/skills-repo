@@ -4,7 +4,7 @@ A collection of practical skills for Claude Code.
 
 ## Skills
 
-### feedback (비판적수용)
+### critical-acceptance (비판적수용)
 
 피드백을 무조건 수용하거나 거부하지 않고, 객관적 원칙에 기반하여 비판적으로 수용한다.
 
@@ -33,7 +33,7 @@ claude plugin add -- jhleee/skills-repo
 ## Usage
 
 ```
-/feedback          # 피드백 비판적 수용 (Accept/Reject/Negotiate)
+/critical-acceptance   # 피드백 비판적 수용 (Accept/Reject/Negotiate)
 /backend-handoff   # Generate frontend integration doc from backend code
 ```
 
